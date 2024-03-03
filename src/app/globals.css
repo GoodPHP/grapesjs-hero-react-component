@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+.gjs-resizer-h-tc, .gjs-resizer-h-bc{
+  width: 15px !important;
+  height: 15px !important;
+  background-color: #3b97e3 !important;
+  cursor: pointer !important;
+}
+
+.gjs-resizer-h-tc::before, .gjs-resizer-h-bc::before {
+  color: #fff;
+  content: "\002B";
+  font-size: 20px;
+  position: relative;
+  top: -11px;
+  left: -1.5px;
+  font-style: initial;
+}
