@@ -13,6 +13,9 @@ In summary, the grapesjs-hero-react-component GitHub repository presents a valua
 Demo:
 https://stackblitz.com/~/github.com/GoodPHP/grapesjs-hero-react-component
 
+GJS.MARKET:
+https://gjs.market/products/hero-react-component-grapesjs
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
